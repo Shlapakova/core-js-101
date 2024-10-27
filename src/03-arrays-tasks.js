@@ -35,9 +35,8 @@ function findElement(arr, value) {
  *    2 => [ 1, 3 ]
  *    5 => [ 1, 3, 5, 7, 9 ]
  */
-function generateOdds(len) {
-  if (len === 0) return [1];
-  return Array.from({ len }, (_, index) => 2 * index + 1);
+function generateOdds(/* len */) {
+  throw new Error('Not implemented');
 }
 
 
@@ -593,8 +592,8 @@ function getElementByIndexes(arr, indexes) {
  *   [ 1, 2, 3, 4, 5, 6, 7, 8 ]   =>  [ 5, 6, 7, 8, 1, 2, 3, 4 ]
  *
  */
-function swapHeadAndTail(/*arr*/) {
-  
+function swapHeadAndTail(/* arr */) {
+  throw new Error('Not implemented');
 }
 
 
